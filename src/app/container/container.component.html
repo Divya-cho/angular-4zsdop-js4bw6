@@ -1,0 +1,5 @@
+<div class="ekart--product--container">
+<search-comp (ChangedSearchText)='onSearchTextUpdated($event)'></search-comp>
+<productlist-comp [searchText]='SearchTextt' #productListComponent></productlist-comp>
+<product-detail *ngIf="productListComponent.selectedProduct" [productListComp]='productListComp'></product-detail>
+</div>

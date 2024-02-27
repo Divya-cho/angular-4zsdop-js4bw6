@@ -1,0 +1,17 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Dancing+Script:wght@400..700&display=swap');
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;   
+  padding: 0 10px; 
+  color: #28282B;
+}
